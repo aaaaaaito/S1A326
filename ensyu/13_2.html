@@ -14,7 +14,7 @@
             font-size: 14px;
         }
 
-        .sample1 {animation: zigzag 2s ease 0s infinite alternate;}
+        .sample1 {animation: zigzag 0.5s ease 0s infinite alternate;}
 
         @keyframes zigzag {
             0% {transform: translate(0, 0);}
@@ -30,12 +30,14 @@
             100% {transform: translate(500px, 0px);}
         }
 
-        .sample2 { animation: scale-and-color 4s ease 0s infinite alternate; }
+        .sample2 { animation: scale-and-color 0.4s ease 0s infinite alternate; }
 
         @keyframes scale-and-color {
-            0% {background: #ad4444; transform: scale(1);}
-            50% {background: #3946ad; transform: scale(1.5);}
-            100% {background: #4dad48; transform: scale(1);}
+            0% {background: #ff0000; transform: scale(1);}
+            25% {background: #ff00bf; transform: scale(1);}
+            50% {background: #001eff; transform: scale(1.5);}
+            75% {background: #04cdff; transform: scale(1);}
+            100% {background: #0dff00; transform: scale(1);}
         }
 
         img {
