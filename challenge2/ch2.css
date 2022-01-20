@@ -49,6 +49,17 @@ em {
   color: #196f6a;
 }
 
-/*----------------------------
-この下に、CSSの指定を記述していきましょう。
-----------------------------*/
+ul {
+  list-style: none;/*・を消す*/
+  padding-left: 0;
+  display: flex;/*横並び*/
+}
+li {flex:1 1 20%;}/*伸び比率　縮み比率　幅*/
+
+body {
+  background: url(wood.jpg) #504643 left top repeat;
+  text-align: center;
+}
+* {
+  font-family: 'Rampart One', cursive;
+}
