@@ -1,0 +1,18 @@
+@charset "UTF-8";
+* {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 100%;
+}
+
+.hoge {
+    max-width:60%;
+}
+
+.header {
+    background-color: rgb(148, 105, 137);
+}
+
+
+.title {
+    background-color: rgb(148, 105, 137);
+}
