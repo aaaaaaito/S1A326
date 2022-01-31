@@ -16,3 +16,42 @@
 .title {
     background-color: rgb(148, 105, 137);
 }
+.bike {
+    max-width: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.bike2 {
+    max-width: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.slide img {
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+@keyframes slide-4 {
+    0% {margin-left: -10%;}
+    100% {margin-left: 110%;}
+}
+.slide1  :first-child {
+    animation-name: slide-4;
+    animation-duration: 10s;/*40*/
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;/*5*/
+    animation-iteration-count: infinite;
+}
+.slide2  :first-child {
+    animation-name: slide-42;
+    animation-duration: 23s;/*40*/
+    animation-timing-function: ease-in-out;
+    animation-delay:0s;/*5*/
+    animation-iteration-count: infinite;
+}
+@keyframes slide-42 {
+    0% {margin-left: -10%;}
+    100% {margin-left: 110%;}
+}
